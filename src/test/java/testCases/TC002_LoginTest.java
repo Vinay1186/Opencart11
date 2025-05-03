@@ -33,6 +33,7 @@ public class TC002_LoginTest extends BaseClass
     	}
     	catch(Exception e)
     	{
+    		e.getMessage();
     		//Assert.fail();
     	}
 	    logger.info("********FinishedTC002_LoginTest*****");
